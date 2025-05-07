@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Fallback background color */
+    background-image: url('assets/bg2.gif'); /* Path to your background image */
+    background-size: cover; /* Adjust as needed: contain, repeat, etc. */
+    background-repeat: no-repeat; /* Adjust as needed */
+}
+
+.score-container {
+    display: flex;
+    gap: 20px; /* Space between score and high score */
+    margin-bottom: 20px; /* Space between scores and canvas */
+    color: #333;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#gameCanvas {
+    border: 2px solid #333;
+    background-color: transparent; /* Make the canvas background transparent */
+}
